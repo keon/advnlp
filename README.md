@@ -1,4 +1,4 @@
-## Generation of Adversarial Examples in deep neural network models for NLP
+## Generation of Adversarial Examples for NLP
 
 Deep Text Classification Can be Fooled https://arxiv.org/abs/1704.08006
 
