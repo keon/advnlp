@@ -13,7 +13,7 @@ def parse_arguments():
                    help='how many steps to wait before logging')
     p.add_argument('-test-interval', type=int, default=200,
                    help='how many steps to wait before testing')
-    p.add_argument('-save-interval', type=int, default=500,
+    p.add_argument('-save-interval', type=int, default=200,
                    help='how many steps to wait before saving')
     p.add_argument('-save-dir', type=str, default='snapshot',
                    help='where to save the snapshot')

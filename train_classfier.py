@@ -131,9 +131,9 @@ def main():
         print('\n[Text]  {}[Label] {}\n'.format(args.predict, label))
     elif args.test :
         try:
-            evaluate(classifier, test_iter, args)
+            evaluate(classifier, val_iter, args)
         except Exception as e:
-            print("\nSorry. The test dataset doesn't  exist.\n")
+            print("\nSorry. The test dataset doesn't  exist.\n", e)
     else :
         print()
         train(classifier, train_iter, val_iter, args)

@@ -22,14 +22,14 @@ Improved Training of Wasserstein GANs https://arxiv.org/abs/1704.00028
 
 ## Binary Sentiment Classifiers
 
-Not yet tuned ...
-
+Not yet tuned ..
 
 ## Dependency
 
 Install `pytorch/text`
 
 ```
-git clone git+https://github.com/pytorch/text
+git clone https://github.com/pytorch/text
+cd text
 python3 setup.py install
 ```
